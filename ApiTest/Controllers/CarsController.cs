@@ -17,8 +17,7 @@ namespace ApiTest.Controllers
             {
                 return this.Ok(context.Cars.Select(car => car.Model).ToList());
             }
-            Console.WriteLine("asdasda");
-            //Console.WriteLine();
+            
         }
     }
 }
